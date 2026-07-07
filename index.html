@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio – Web Dev Intern</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav>
+        <div class="container nav-container">
+            <div class="logo"><i class="fas fa-bolt"></i> MyPort</div>
+            <input type="checkbox" id="nav-toggle">
+            <label for="nav-toggle" class="hamburger">
+                <span></span><span></span><span></span>
+            </label>
+            <ul class="nav-links">
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#" class="btn btn-primary">Contact</a></li>
+            </ul>
+            <label for="nav-toggle" class="nav-overlay"></label>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="container hero-grid">
+            <div class="hero-text">
+                <h1>Creative <span>Web</span> Solutions</h1>
+                <p>I build responsive, user-friendly websites that help brands grow. Let’s bring your ideas to life.</p>
+                <div class="hero-buttons">
+                    <a href="#" class="btn btn-primary">Start a project</a>
+                    <a href="#work" class="btn btn-outline">See my work</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="illustration"><i class="fas fa-code"></i></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">What I <span>do</span></h2>
+            <p class="section-sub">I offer end-to-end digital solutions.</p>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="icon"><i class="fas fa-paint-brush"></i></div>
+                    <h3>UI/UX Design</h3>
+                    <p>Modern, intuitive interfaces designed with user experience in mind.</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon"><i class="fas fa-code"></i></div>
+                    <h3>Web Development</h3>
+                    <p>Responsive websites built with HTML, CSS, and JavaScript.</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon"><i class="fas fa-chart-line"></i></div>
+                    <h3>Digital Strategy</h3>
+                    <p>Data-driven approaches to help you reach the right audience.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container about-grid">
+            <div class="about-image"><i class="fas fa-users"></i></div>
+            <div class="about-text">
+                <h2>A bit about <span>me</span></h2>
+                <p>I’m a web development intern passionate about creating clean, functional websites. I love turning ideas into reality through code.</p>
+                <p>With a focus on responsive design and user experience, I strive to make the web a better place, one site at a time.</p>
+                <div class="stats">
+                    <div><span>20+</span><br>Projects</div>
+                    <div><span>95%</span><br>Satisfaction</div>
+                    <div><span>4.8</span><br>Rating</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="work" class="portfolio">
+        <div class="container">
+            <h2 class="section-title">My <span>work</span></h2>
+            <p class="section-sub">Some of the projects I’ve built recently.</p>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" style="background:#dbeafe;"><i class="fas fa-laptop-code"></i><div class="overlay"><h4>Dashboard</h4><p>UI/UX</p></div></div>
+                <div class="portfolio-item" style="background:#e0e7ff;"><i class="fas fa-mobile-alt"></i><div class="overlay"><h4>Health App</h4><p>Mobile</p></div></div>
+                <div class="portfolio-item" style="background:#fce7f3;"><i class="fas fa-shopping-bag"></i><div class="overlay"><h4>E‑commerce</h4><p>Full Stack</p></div></div>
+                <div class="portfolio-item" style="background:#d1fae5;"><i class="fas fa-chart-pie"></i><div class="overlay"><h4>Analytics</h4><p>Data Viz</p></div></div>
+                <div class="portfolio-item" style="background:#fef3c7;"><i class="fas fa-graduation-cap"></i><div class="overlay"><h4>E‑Learning</h4><p>EdTech</p></div></div>
+                <div class="portfolio-item" style="background:#e5e7eb;"><i class="fas fa-globe"></i><div class="overlay"><h4>Corporate</h4><p>Branding</p></div></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2 class="section-title">What people <span>say</span></h2>
+            <p class="section-sub">Feedback from clients I’ve worked with.</p>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <blockquote>“Absolutely loved the design. The site is fast, responsive, and looks amazing on every device.”</blockquote>
+                    <div class="author"><div class="avatar">JD</div><div><h4>Jessica D.</h4><span>Founder, Bloom</span></div></div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <blockquote>“Great communication and attention to detail. Delivered exactly what we needed, on time.”</blockquote>
+                    <div class="author"><div class="avatar">MR</div><div><h4>Michael R.</h4><span>CEO, Vantage</span></div></div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <blockquote>“The mobile-first approach made a huge difference for our users. Highly recommend!”</blockquote>
+                    <div class="author"><div class="avatar">SK</div><div><h4>Sarah K.</h4><span>Product Lead</span></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <div class="logo"><i class="fas fa-bolt"></i> MyPort</div>
+                <p>Building digital experiences that connect people.</p>
+            </div>
+            <div class="footer-col"><h4>Company</h4><ul><li><a href="#">About</a></li><li><a href="#">Careers</a></li><li><a href="#">Blog</a></li></ul></div>
+            <div class="footer-col"><h4>Services</h4><ul><li><a href="#">Design</a></li><li><a href="#">Development</a></li><li><a href="#">Strategy</a></li></ul></div>
+            <div class="footer-col"><h4>Connect</h4><ul><li><a href="#">hello@myport.dev</a></li><li><a href="#">+1 (555) 000-0000</a></li><li><a href="#">New York, NY</a></li></ul></div>
+        </div>
+        <div class="footer-bottom"><p>&copy; 2026 MyPort. All rights reserved.</p><div class="socials"><a href="#"><i class="fab fa-twitter"></i></a><a href="#"><i class="fab fa-linkedin-in"></i></a><a href="#"><i class="fab fa-github"></i></a></div></div>
+    </footer>
+
+</body>
+</html>
